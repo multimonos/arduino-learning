@@ -18,3 +18,10 @@ upload:
 		--verbose
 
 deploy: build upload
+
+attach:
+	arduino-cli board attach \
+		--port $(PORT) \
+		--fqbn $(FQBN) \
+		--verbose
+
