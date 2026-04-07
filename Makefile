@@ -1,5 +1,8 @@
 .PHONY: build
 
+tinker:
+	open https://www.tinkercad.com/things/lp4U523myRg-sim/editel
+
 pinout:
 	open ./docs/Pinout-Mega2560rev3_latest.pdf
 
