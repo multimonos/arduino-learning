@@ -29,3 +29,7 @@ cat /Users/chopgood/Library/Arduino15/packages/arduino/hardware/avr/1.8.7/varian
 
 ## Pulse Width Modulation
 - achieve intermediate voltages by modulating the voltage pulse
+
+## Potentiometer
+- read with 5V in via A5 produced [0, 1024 ]
+- read with 3.3V in via A5 produced [0, 649]

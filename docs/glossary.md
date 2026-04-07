@@ -47,13 +47,13 @@ Tx
 Rx
 : receive
 
-PWM
+Pulse Width Modulation - PWM
 : pulse width modulation
 
 System != Embedded Programming
 : in embedded often your code is the only code
 
-RTOS
+Real Time Operating System - RTOS
 : real time operating system ... concurrency not parallelism, tasks not threads
 : provides primitives that Bare Metal does not provide
 
@@ -61,6 +61,8 @@ Bare metal
 : only your code, level belown RTOS
 : hardware, mmio, pmio, peripherals
 
-HAL
+Hardware Abstraction Library - HAL
 : hardware abstraction library delivers abstraction for registers that contain settings in memory 
 
+Baud Rate
+: speed at which information is transmitted over a serial connection in bits per second
