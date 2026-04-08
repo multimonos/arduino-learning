@@ -1,4 +1,7 @@
-.PHONY: build
+.PHONY: build docs components
+
+kit:
+	open ./components/elegoo-most-complete-starter-kit/
 
 tinker:
 	open https://www.tinkercad.com/things/lp4U523myRg-sim/editel
