@@ -1,8 +1,6 @@
 .PHONY: build blinker
 
-PORT:=/dev/cu.usbmodem101
-FQBN=arduino:avr:mega
-
+include ../board.mk
 
 build:
 	arduino-cli compile \
